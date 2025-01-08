@@ -9,8 +9,6 @@ import torch
 from mmcv.runner import init_dist
 from mmcv.utils import Config, DictAction, get_git_hash
 
-import sys
-sys.path.append('/mnt/data/experiments/mirror_tcsvt/')
 from mmseg import __version__
 from mmseg.apis import set_random_seed, train_segmentor
 from mmseg.datasets import build_dataset
