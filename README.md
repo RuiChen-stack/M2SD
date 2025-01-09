@@ -35,8 +35,16 @@ python tools/test.py /configs/m2sd/m2sd_msd.py ./checkpoint.pth --show --show-di
 ```
 # Results
 
+## Evaluation metrics on the dataset.
+
 | Dataset | IoU | F | MAE | 
 | :---: | :---: | :---: | :---: 
 | MSD | 87.11 | 0.936 | 0.032 |  
 | PMD | 69.77 | 0.846 | 0.024 | 
 | RGBD-Mirror | 78.60 | 0.904 | 0.030 |
+
+## Visualization of segmentation results.
+
+The segmentation results on the test dataset can be downloaded [here]().
+
+
