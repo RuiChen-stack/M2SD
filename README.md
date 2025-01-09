@@ -17,12 +17,12 @@ pip install -r requirements/optional.txt
 ```
 Please refer to [here](https://github.com/ZhouYanzhao/ORN/tree/pytorch-v2) for the installation of Oriented Response Networks (ORN) related environments.
 
-##Train
+## Train
 ```
 python tools/train.py /configs/m2sd/m2sd_msd.py --load-from pretrain_checkpoint.pth
 ```
 
-##Test
+## Test
 ```
 python tools/test.py /configs/m2sd/m2sd_msd.py ./checkpoint.pth --eval mIoU
 ```
