@@ -28,6 +28,6 @@ python tools/test.py /configs/m2sd/m2sd_msd.py ./checkpoint.pth --eval mIoU
 ```
 
 ## Visualization
-···
+```
 python tools/test.py /configs/m2sd/m2sd_msd.py ./checkpoint.pth --show --show-dir save_path
-···
+```
