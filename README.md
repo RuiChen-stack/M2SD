@@ -4,6 +4,7 @@ Mirror Detection via Multi-Directional Similarity Perception and Spectral Salien
 # Get started
 ## Datasets
 The mirror segmentation dataset can be downloaded [here](https://drive.google.com/drive/folders/1Fj0fIwn-mXI3xTlENiHXjYNLMUBRTZwg?usp=sharing)
+
 ## Requirements
 ```
 conda create -n <yourenv_name> python=3.7
@@ -14,3 +15,19 @@ mim install mmcv==1.7.1
 pip install -e .  # or "python setup.py develop"
 pip install -r requirements/optional.txt
 ```
+Please refer to [here](https://github.com/ZhouYanzhao/ORN/tree/pytorch-v2) for the installation of Oriented Response Networks (ORN) related environments.
+
+##Train
+```
+python tools/train.py /configs/m2sd/m2sd_msd.py --load-from pretrain_checkpoint.pth
+```
+
+##Test
+```
+python tools/test.py /configs/m2sd/m2sd_msd.py ./checkpoint.pth --eval mIoU
+```
+
+## Visualization
+···
+python tools/test.py /configs/m2sd/m2sd_msd.py ./checkpoint.pth --show --show-dir save_path
+···
