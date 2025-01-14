@@ -45,6 +45,6 @@ python tools/test.py /configs/m2sd/m2sd_msd.py ./checkpoint.pth --show --show-di
 
 ## Visualization of segmentation results
 
-The segmentation results on the test dataset can be downloaded [here](https://pan.baidu.com/s/15d3J73Se_xC-FL6EUgp9MA?pwd=hi2q).
+The segmentation results on test datasets can be downloaded [here](https://pan.baidu.com/s/15d3J73Se_xC-FL6EUgp9MA?pwd=hi2q)
 
 
