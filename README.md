@@ -3,7 +3,7 @@ This repository is the official PyTorch implementation of the paper "Mirror Dete
 
 # Get started
 ## Datasets
-The mirror segmentation dataset can be downloaded [here](https://drive.google.com/drive/folders/1Fj0fIwn-mXI3xTlENiHXjYNLMUBRTZwg?usp=sharing)
+The mirror detection datasets can be downloaded [here](https://drive.google.com/drive/folders/1Fj0fIwn-mXI3xTlENiHXjYNLMUBRTZwg?usp=sharing)
 
 ## Requirements
 ```
@@ -43,8 +43,8 @@ python tools/test.py /configs/m2sd/m2sd_msd.py ./checkpoint.pth --show --show-di
 | PMD | 69.77 | 0.846 | 0.024 | 
 | RGBD-Mirror | 78.60 | 0.904 | 0.030 |
 
-## Visualization of segmentation results
+## Visualization of mirror detection results
 
-The segmentation results on test datasets can be downloaded [here](https://pan.baidu.com/s/15d3J73Se_xC-FL6EUgp9MA?pwd=hi2q)
+The mirror detection results on test datasets can be downloaded [here](https://pan.baidu.com/s/15d3J73Se_xC-FL6EUgp9MA?pwd=hi2q)
 
 
