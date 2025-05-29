@@ -1,5 +1,5 @@
 # Mirror Detection via Multi-Directional Similarity Perception and Spectral Saliency Enhancement
-This repository is the official PyTorch implementation of our IEEE TCSVT paper ["Mirror Detection via Multi-Directional Similarity Perception and Spectral Saliency Enhancement"]([http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhiwen_Shao_Deep_Adaptive_Attention_ECCV_2018_paper.pdf](https://ieeexplore.ieee.org/abstract/document/10988826))
+This repository is the official PyTorch implementation of our IEEE TCSVT paper ["Mirror Detection via Multi-Directional Similarity Perception and Spectral Saliency Enhancement"](https://ieeexplore.ieee.org/abstract/document/10988826))
 
 # Get started
 ## Datasets
