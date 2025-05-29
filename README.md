@@ -1,5 +1,5 @@
 # Mirror Detection via Multi-Directional Similarity Perception and Spectral Saliency Enhancement
-This repository is the official PyTorch implementation of the paper "Mirror Detection via Multi-Directional Similarity Perception and Spectral Saliency Enhancement"
+This repository is the official PyTorch implementation of our IEEE TCSVT paper "Mirror Detection via Multi-Directional Similarity Perception and Spectral Saliency Enhancement"
 
 # Get started
 ## Datasets
@@ -47,4 +47,14 @@ python tools/test.py /configs/m2sd/m2sd_msd.py ./checkpoint.pth --show --show-di
 
 The mirror detection results on test datasets can be downloaded [here](https://pan.baidu.com/s/15d3J73Se_xC-FL6EUgp9MA?pwd=hi2q)
 
-
+## Citation
+If you use this code for your research, please cite our paper:
+```
+@article{shao2025mirror,
+  title={Mirror Detection via Multi-Directional Similarity Perception and Spectral Saliency Enhancement},
+  author={Shao, Zhiwen and Chen, Rui and Shi, Xuehuai and Liu, Bing and Li, Canlin and Ma, Lizhuang and Yeung, Dit-Yan},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2025},
+  publisher={IEEE}
+}
+```
